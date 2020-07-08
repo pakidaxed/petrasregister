@@ -19,6 +19,7 @@ body {
     text-align: center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    text-transform: uppercase;
 }
 
 .form-box > section {
@@ -53,7 +54,7 @@ select {
 
 .form {
     width: 100%;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -99,6 +100,7 @@ input[type="submit"] {
     padding: 12px 50px;
     background: rgb(253, 29, 29);
     color: #fff;
+    text-transform: uppercase;
 }
 
 .existing span {
