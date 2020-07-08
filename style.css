@@ -1,0 +1,107 @@
+body {
+    box-sizing: border-box;
+    padding: 10px 0;
+    min-height: 100vh;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(236deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.form-box {
+    width: 750px;
+    margin: 110px auto 0 auto;
+}
+
+.form-box > header {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.form-box > section {
+    background-color: #fff;
+    padding: 40px 80px;
+}
+
+.form-box > footer {
+    background-color: #fff;
+    padding: 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+input, select {
+    box-sizing: border-box;
+    background-color: lightgrey;
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+select {
+    padding: 8px;
+}
+
+.label {
+    width: 150px;
+    padding-top: 17px;
+    font-weight: bold;
+}
+
+.form {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.form input, .form select {
+    width: 100%;
+}
+
+.inline {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.small {
+    width: 25%;
+}
+
+.big {
+    width: 75%;
+}
+
+.half {
+    width: 50%;
+}
+
+.labeled:first-child {
+    margin-right: 30px;
+}
+
+.labeled > span {
+    display: block;
+    color: lightgray;
+    font-size: 13px;
+    margin: 5px 0 0 3px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    padding: 12px 50px;
+    background: rgb(253, 29, 29);
+    color: #fff;
+}
+
+.existing span {
+    margin-left: 50px;
+}
+

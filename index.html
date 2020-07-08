@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form-box">
+    <header>
+        <h1>EVENT REGISTRATION FORM</h1>
+    </header>
+    <section>
+        <form action="">
+            <div class="inline">
+                <div class="label">
+                    <label for="firstname">Name</label>
+                </div>
+                <div class="form">
+                    <div class="labeled half">
+                        <input type="text" name="firstname" id="firstname"/>
+                        <span>First Name</span>
+                    </div>
+                    <div class="labeled half">
+                        <input type="text" name="lastname" id="lastname"/>
+                        <span>Last Name</span>
+                    </div>
+                </div>
+            </div>
+            <div class="inline">
+                <div class="label">
+                    <label for="company">Company</label>
+                </div>
+                <div class="form">
+                    <input type="text" name="company" id="company"/>
+                </div>
+            </div>
+            <div class="inline">
+                <div class="label">
+                    <label for="email">Email</label>
+                </div>
+                <div class="form">
+                    <input type="email" name="email" id="email" placeholder="example@example.com"/>
+                </div>
+            </div>
+            <div class="inline">
+                <div class="label">
+                    <label for="code">Phone</label>
+                </div>
+                <div class="form">
+                    <div class="labeled small">
+                        <input type="text" name="code" id="code"/>
+                        <span>Area Code</span>
+                    </div>
+                    <div class="labeled big">
+                        <input type="text" name="number" id="number"/>
+                        <span>Phone Number</span>
+                    </div>
+                </div>
+            </div>
+            <div class="inline">
+                <div class="label">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="form">
+                    <select name="subject" id="subject">
+                        <option value="">Choose option</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                </div>
+            </div>
+            <p class="bold">Are you an existing customer ?</p>
+            <div class="existing">
+                <input type="radio" id="yes" name="existing" value="yes">
+                <label for="yes">Yes</label>
+                <span>&nbsp;</span>
+                <input type="radio" id="no" name="existing" value="no">
+                <label for="no">No</label>
+            </div>
+
+            <input type="submit" name="submit" value="REGISTER"/>
+        </form>
+    </section>
+    <footer>
+        &nbsp;
+    </footer>
+</div>
+
+</body>
+</html>
