@@ -17,8 +17,8 @@ body {
     color: #fff;
     padding: 5px;
     text-align: center;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .form-box > section {
@@ -29,8 +29,8 @@ body {
 .form-box > footer {
     background-color: #fff;
     padding: 5px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 input, select {
